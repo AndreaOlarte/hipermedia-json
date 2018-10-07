@@ -1,0 +1,20 @@
+[
+  {
+    "name" : "Producto 1",
+    "picture" : "images/p1.jpg",
+    "description" : "La wea wea wea wea",
+    "price" : "$230.50",
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Muy chido, gracias",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "Ni tan chido, eh",
+        "stars" : 3.5
+      }
+    ]
+  }
+]

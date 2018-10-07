@@ -38,8 +38,10 @@ request.send();
 
 request.onload = function() {
   var myProducts = request.response;
-  document.getElementById("product-name").innerHTML = myProducts[0]['name'];
-  document.getElementById("product-img").src = myProducts[0]['picture'];
+  for(var i = 0; i < 2; i++){
+    document.getElementById("product-name" + i).innerHTML = myProducts[i]['name'];
+    document.getElementById("product-img" + i).src = myProducts[i]['picture'];
+  }
 }
 
 

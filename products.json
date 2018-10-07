@@ -1,9 +1,29 @@
 [
   {
-    "name" : "Producto 1",
+    "name" : "Camisa De Pana",
     "picture" : "images/p1.jpg",
-    "description" : "La wea wea wea wea",
-    "price" : "$230.50",
+    "alternative-pic" : "images/p1-2.jpg",
+    "description" : "Camisa de pana con bolsillos de parche en pecho, cierre de botones al frente, hombros caídos, mangas largas, cuello clásico y dobladillo curvo.",
+    "price" : 419.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Muy chido, gracias",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "Ni tan chido, eh",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Vestido Canalé V",
+    "picture" : "images/p2.jpg",
+    "alternative-pic" : "images/p2-2.jpg",
+    "description" : "Vestido en tejido de punto canalé, escote V, botones al frente, mangas largas y silueta en línea A.",
+    "price" : 269.00,
     "reviews" :  [
       {
         "customer" : "Carly Miranda",

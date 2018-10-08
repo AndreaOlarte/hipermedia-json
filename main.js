@@ -38,9 +38,11 @@ request.send();
 
 request.onload = function() {
   var myProducts = request.response;
-  for(var i = 0; i < 2; i++){
+  for(var i = 0; i < 10; i++){
     document.getElementById("product-name" + i).innerHTML = myProducts[i]['name'];
     document.getElementById("product-img" + i).src = myProducts[i]['picture'];
+    document.getElementById("product-alt-img" + i).src = myProducts[i]['alternative-pic'];
+    document.getElementById("product-price" + i).innerHTML = "$" + myProducts[i]['price'];
   }
 }
 

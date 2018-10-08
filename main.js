@@ -1,25 +1,4 @@
-// (function ($) {
-// })(jQuery);
-
-function readTextFile(file, callback) { 
-  var rawFile = new XMLHttpRequest(); 
-  rawFile.overrideMimeType("application/json"); 
-  rawFile.open("GET", file, true); 
-  rawFile.onreadystatechange = function() { 
-    if (rawFile.readyState === 4 && rawFile.status == "200") { 
-      callback(rawFile.responseText);
-    } 
-  } 
-  rawFile.send(null); 
-} //usage: readTextFile("/Users/Documents/workspace/test.json", function(text){ var data = JSON.parse(text); console.log(data); }); 
-
-// var data = [];
-
-// readTextFile("products.json", function(text){ 
-//   var data = JSON.parse(text); 
-//   console.log(data); 
-// }); 
-
+var indexProducts = 0;
 
 // SÍ FUNCIONA
 // var myObj = {name: "John", age: 31, city: "New York"};
@@ -36,19 +15,27 @@ request.open('GET', requestURL);
 request.responseType = 'json';
 request.send();
 
-request.onload = function() {
+request.onload = setProductsOnPage;
+
+function setProductsOnPage() {
   var myProducts = request.response;
-  for(var i = 0; i < 10; i++){
-    document.getElementById("product-name" + i).innerHTML = myProducts[i]['name'];
-    document.getElementById("product-img" + i).src = myProducts[i]['picture'];
-    document.getElementById("product-alt-img" + i).src = myProducts[i]['alternative-pic'];
-    document.getElementById("product-price" + i).innerHTML = "$" + myProducts[i]['price'];
+  for(var i = 0; i < 28; i++){
+    document.getElementById("product-name" + i).innerHTML = myProducts[(28 * indexProducts + i)]['name'];
+    document.getElementById("product-img" + i).src = myProducts[(28 * indexProducts + i)]['picture'];
+    document.getElementById("product-alt-img" + i).src = myProducts[(28 * indexProducts + i)]['alternative-pic'];
+    document.getElementById("product-price" + i).innerHTML = "$" + myProducts[(28 * indexProducts + i)]['price'];
   }
 }
 
 
-// let json = require('products.json');
-
-// var myProduct = JSON.parse(json);
-// document.getElementById("product-name").innerHTML = myProduct[0]['name'];
-// document.getElementById("product-name").innerHTML = data[0]['name'];
+function changeIndex(index){
+  indexProducts = index;
+  // request.onload = setProductsOnPage;
+  // location.reload(true);
+  request = new XMLHttpRequest();
+  request.open('GET', requestURL);
+  request.responseType = 'json';
+  request.send();
+  
+  request.onload = setProductsOnPage;
+}

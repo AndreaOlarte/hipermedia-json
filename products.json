@@ -948,5 +948,119 @@
         "stars" : 3.5
       }
     ]
+  },
+  {
+    "name" : "Cazadora De Mezclilla",
+    "picture" : "images/p51.jpg",
+    "alternative-pic" : "images/p51-2.jpg",
+    "description" : "Cazadora en tejido ligero de mezclilla con cuello alto, cierre frontal de cremallera, con botones a presión, bolsillo de parche en pecho, cintura de cordones y bolsillos delanteros inclinados con solapa.",
+    "price" : 600.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Gabardina Estampado Cuadros",
+    "picture" : "images/p52.jpg",
+    "alternative-pic" : "images/p52-2.jpg",
+    "description" : "Gabardina en tejido ligero con estampado de cuadros, cuello con muescas, solapa trasera antitormenta, hombros con trabillas y cierres a presión, mangas largas con puños de botón, confección de bolsillos diagonales al frente, cierre de doble botonadura y cinta auto-amarrable removible.",
+    "price" : 909.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Chamarra De Antelina",
+    "picture" : "images/p53.jpg",
+    "alternative-pic" : "images/p53-2.jpg",
+    "description" : "Chamarra de Antelina de peso medio con cuello de muescas abotonados, manga larga con cierres de cremallera laterales, bolsillos frontales de cierre, hombros con trabillas de cierres a presión, diseño frontal asimétrico con cierre de cremallera y cinturón removible.",
+    "price" : 660.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Vestido T-Shirt Jaspeado",
+    "picture" : "images/p54.jpg",
+    "alternative-pic" : "images/p54-2.jpg",
+    "description" : "Vestido t-shirt en tejido jaspeado con cuello redondo, mangas cortas arremangadas y silueta ligeramente oversize.",
+    "price" : 239.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Jeans Tiro Alto Pierna Ancha",
+    "picture" : "images/p55.jpg",
+    "alternative-pic" : "images/p55-2.jpg",
+    "description" : "Jeans de mezclilla con tiro alto, silueta de pierna ancha, corte al tobillo, confección de bolsillos diagonales profundos al frente, bolsillos traseros decorativos de ribete, trabillas en cintura y cierre de cremallera frontal con botones.",
+    "price" : 580.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Parka Con Capucha",
+    "picture" : "images/p56.jpg",
+    "alternative-pic" : "images/p56-2.jpg",
+    "description" : "Parka tejida en tela fluida con capucha de cordones, cintura elástica, cuello alto, manga larga con puños elásticos, cierre de cremallera frontal y botones a presión, bolsillos con solapa con cierres a presión, forro de maya, abertura posterior y bajo elástico.",
+    "price" : 729.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
   }
 ]
